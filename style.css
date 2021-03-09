@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Mono:ital@0;1&display=swap');
+
 @import 'css/main.css';
 @import 'css/letter.css';
 @import 'css/photo.css';
 
 @import 'reset.css';
 @import 'head.css';
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
