@@ -1,0 +1,25 @@
+body {
+  background-color: mistyrose;
+}
+
+#background {
+  width: 50%;
+  margin: auto;
+}
+
+#head {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 40px 0px;
+  font-size: 20px;
+  font-weight: 600;
+}
