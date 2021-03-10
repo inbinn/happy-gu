@@ -1,7 +1,16 @@
 #body_photo {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
+
+span {
+  font-size: 30px;
+  margin-bottom: 30px;
+  font-family: 'Sunflower', sans-serif;
+}
+
 .photo img {
   width: 40%;
   margin: 5px;
