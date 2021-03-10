@@ -1,10 +1,14 @@
-.imgdiv img:last-child {
+.imgdiv .lattrt_op {
   display: none;
 }
 
-.imgdiv:hover img:first-child {
+.imgdiv:hover .letter_cl {
   display: none;
 }
-.imgdiv:hover img:last-child {
+.imgdiv:hover .lattrt_op {
   display: inline-block;
+}
+
+.main_img {
+  width: 100%;
 }

@@ -1,0 +1,21 @@
+#body_photo {
+  display: flex;
+  flex-direction: column;
+}
+.photo img {
+  width: 40%;
+  margin: 5px;
+}
+.photo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.photo img:hover {
+  transform: scale(1.5);
+}
+
+img:hover img {
+  scale: 2;
+}
