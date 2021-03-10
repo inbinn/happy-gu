@@ -3,7 +3,7 @@ body {
 }
 
 #background {
-  margin: auto;
+  margin: 10px;
 }
 
 #head {
@@ -26,8 +26,8 @@ body {
 nav {
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   margin: 40px 0px;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 700;
 }
