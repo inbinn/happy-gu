@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 #body div {
   text-align: center;
@@ -9,4 +10,38 @@
 
 .main_img {
   width: 90%;
+}
+
+.balloons {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.balloons div {
+  width: 400px;
+  animation: top1 3s linear infinite;
+}
+.balloons div:last-child {
+  animation: top2 3s linear infinite;
+}
+
+@keyframes top1 {
+  from {
+    transform: translateY(100px);
+    transform: translateX(-50px);
+  }
+  to {
+    transform: translateY(-1000px);
+  }
+}
+
+@keyframes top2 {
+  from {
+    transform: translateY(500px);
+    transform: translateX(200px);
+  }
+  to {
+    transform: translateY(-1000px);
+  }
 }
