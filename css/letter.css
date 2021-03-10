@@ -1,4 +1,4 @@
-.imgdiv .lattrt_op {
+.lattrt_op {
   display: none;
 }
 
@@ -7,8 +7,4 @@
 }
 .imgdiv:hover .lattrt_op {
   display: inline-block;
-}
-
-.main_img {
-  width: 100%;
 }
