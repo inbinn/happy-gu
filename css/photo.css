@@ -1,3 +1,8 @@
+#background {
+  width: 70%;
+  margin: auto;
+}
+
 #body_photo {
   display: flex;
   flex-direction: column;
@@ -6,7 +11,7 @@
 }
 
 span {
-  font-size: 30px;
+  font-size: 40px;
   margin-bottom: 30px;
   font-family: 'Sunflower', sans-serif;
 }
