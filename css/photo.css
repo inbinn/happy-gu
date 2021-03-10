@@ -6,6 +6,9 @@
   width: 90%;
   margin: auto;
 }
+#body_photo > div {
+  width: 100%;
+}
 
 span {
   font-size: 20px;
@@ -14,10 +17,11 @@ span {
   font-family: 'Sunflower', sans-serif;
 }
 
-#body_photo > div {
-  width: 100%;
+.photo {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
-
 .photo > div {
   width: 100%;
   display: flex;
@@ -25,20 +29,22 @@ span {
   justify-content: center;
   margin: 5px;
 }
-
 .photo img {
   width: 100%;
 }
-.photo {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
 
 .photo img:hover {
-  transform: scale(1.5);
+  animation: scale 1.5s linear infinite;
 }
 
-img:hover img {
-  scale: 2;
+@keyframes scale {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
