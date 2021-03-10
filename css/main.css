@@ -16,6 +16,8 @@
   position: absolute;
   width: 100%;
   height: 100%;
+  justify-content: center;
+  align-items: center;
   display: flex;
 }
 .balloons div {
@@ -28,7 +30,7 @@
 
 @keyframes top1 {
   from {
-    transform: translateY(100px);
+    transform: translateY(500px);
     transform: translateX(-50px);
   }
   to {
@@ -38,7 +40,7 @@
 
 @keyframes top2 {
   from {
-    transform: translateY(500px);
+    transform: translateY(1000px);
     transform: translateX(200px);
   }
   to {
