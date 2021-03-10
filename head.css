@@ -26,11 +26,8 @@ body {
 nav {
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin: 40px 0px;
   font-size: 40px;
   font-weight: 700;
-}
-#body {
-  width: 100%;
 }

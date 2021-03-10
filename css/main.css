@@ -1,4 +1,12 @@
 #body {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+#body div {
+  text-align: center;
+}
+
+.main_img {
+  width: 90%;
 }

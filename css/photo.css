@@ -1,24 +1,33 @@
-#background {
-  width: 70%;
-  margin: auto;
-}
-
 #body_photo {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 90%;
+  margin: auto;
 }
 
 span {
-  font-size: 40px;
+  font-size: 30px;
   margin-bottom: 30px;
+  font-weight: 600;
   font-family: 'Sunflower', sans-serif;
 }
 
-.photo img {
-  width: 40%;
+#body_photo > div {
+  width: 100%;
+}
+
+.photo > div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 5px;
+}
+
+.photo img {
+  width: 100%;
 }
 .photo {
   display: flex;
